@@ -203,11 +203,25 @@ header{
 
     }
 }
+@media (orientation: portrait) and (min-width:600px) and (max-width:1000px){
+    header{
+        min-height:60vh;
+        padding-bottom: 2vh;
+    }
+    .heading{
+        padding: 0;
+    }
+    .contentSection{
+        width: 100vw;
+    }
+
+}
 @media only screen and (min-width:800px){
    
     header{
         align-content: space-between;
         padding-bottom: 10vh;
+
     }
     .heading{width: auto;
     max-width: 45vw;}
@@ -254,7 +268,7 @@ header{
         text-align: left;
         border-radius: 2%;
         width: 85%;
-        padding-top: 4vh 0 0 0 ;
+        padding-top: 4vh 0 0 0  ;
 
     }
     .content{
