@@ -125,7 +125,7 @@ header {
     transition: 100ms;
 }
 .mainImage img:hover{
-    box-shadow: 0px 0px 25px #17376c;
+    box-shadow: 0px 0px 25śpx #17376c;
 }
 
 .heading h1 {
@@ -236,6 +236,32 @@ header {
 
 }
 
+.gallery{
+    width: 100vw;
+    display: flex;
+    padding:4vh 0 10vh 0;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery h1{
+    margin-bottom: 3vh;
+    font-size: 2rem;
+}
+.images{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    background: #caf0f8;
+    padding: 5vh 0;
+}
+.images img{
+    width: 70vw;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 1vh;
+}
+
 /* Media Queries */
 @media only screen and (min-width:600px) {
     .logo {
@@ -296,6 +322,17 @@ header {
 
     .hamburger {
         display: none;
+    }
+    .images{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2vh 0;
+    }
+    .images img{
+        width: 40vw;
+        margin: 2vw;
+        height: 30vw;
     }
 }
 
@@ -392,6 +429,17 @@ header {
     .navbarList ul{
         font-size: 0.8rem;
     }
+    .images{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2vh 0;
+    }
+    .images img{
+        width: 25vw;
+        margin: 2vw;
+        height: 18vw;
+    }
 
 }
 
@@ -440,6 +488,11 @@ header {
         margin-top: 5vh;
     }
     .navbarList ul{
-        font-size: 0.9rem;
+        font-size: 1.4rem;
     }
+    .headerButton{
+        font-size: 2rem;
+        padding: 2vh 4vw;
+    }
+
 }
