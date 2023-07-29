@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="logo">
             <img src="images/logo.png" alt="Logo_Image">
             <h1>GOJO SATORU</h1>
@@ -19,12 +19,12 @@
             <div class="navbarList">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#footer">All Links</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                 </ul>
             </div>
         </div>
-        
+
         <div class="heading">
             <h1>Landing page website Design Template</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, odit minus tempore mollitia vero,
@@ -65,40 +65,90 @@
             </div>
         </div>
     </section>
-    <section class="video">
+    <section class="video" id="video">
         <h1>VIDEO</h1>
-        <video loop autoplay controls><source src="Videos/videoplayback.mp4" type="video/mp4"></video>
+        <video loop autoplay controls>
+            <source src="Videos/videoplayback.mp4" type="video/mp4">
+        </video>
     </section>
     <section class="contentSection">
         <div class="content">
             <h3>LOREM IPSUM</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae unde adipisci sequi ut fugiat enim magnam optio libero! Optio dolorem sint ratione culpa ullam similique quis asperiores error accusamus quibusdam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur sit deleniti, dignissimos cupiditate assumenda suscipit minus quae veritatis? Quasi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae unde adipisci sequi ut fugiat enim
+                magnam optio libero! Optio dolorem sint ratione culpa ullam similique quis asperiores error accusamus
+                quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur sit deleniti, dignissimos
+                cupiditate assumenda suscipit minus quae veritatis? Quasi.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, tempor</p>
         </div>
         <div class="content">
             <h3>LOREM IPSUM</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae unde adipisci sequi ut fugiat enim magnam optio libero! Optio dolorem sint ratione culpa ullam similique quis asperiores error accusamus quibusdam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur sit deleniti, dignissimos cupiditate assumenda suscipit minus quae veritatis? Quasi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae unde adipisci sequi ut fugiat enim
+                magnam optio libero! Optio dolorem sint ratione culpa ullam similique quis asperiores error accusamus
+                quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur sit deleniti, dignissimos
+                cupiditate assumenda suscipit minus quae veritatis? Quasi.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, tempor</p>
         </div>
     </section>
-    <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8691159798627!2d77.1479205107496!3d28.69356158120564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d023365307bd3%3A0x9f8499b631d5e744!2sMAAC%20Pitampura!5e0!3m2!1sen!2sin!4v1690564055282!5m2!1sen!2sin" style="border:0; margin: 10vh 0 0 0; height: 50vh; width: 100vw;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="map" id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8691159798627!2d77.1479205107496!3d28.69356158120564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d023365307bd3%3A0x9f8499b631d5e744!2sMAAC%20Pitampura!5e0!3m2!1sen!2sin!4v1690564055282!5m2!1sen!2sin"
+            style="border:0; margin: 10vh 0 0 0; height: 50vh; width: 100vw;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <section class="gallery" id="gallery">
         <h1>Gallery</h1>
         <div class="images">
             <img src="images/a2.jpg" alt="Gallery1">
-            <img src="images/a3.png" alt="Gallery1">    
-            <img src="images/a5.jpg" alt="Gallery1">    
-            <img src="images/a6.jpeg" alt="Gallery1">    
-            <img src="images/a8.png" alt="Gallery1">    
-            <img src="images/a9.png" alt="Gallery1">    
+            <img src="images/a3.png" alt="Gallery1">
+            <img src="images/a5.jpg" alt="Gallery1">
+            <img src="images/a6.jpeg" alt="Gallery1">
+            <img src="images/a8.png" alt="Gallery1">
+            <img src="images/a9.png" alt="Gallery1">
         </div>
     </section>
-    <footer>
+    <footer id="footer">
+        <div class="footer1">
+            <h3>Search Section</h3>
+            <div class="search">
+                <label for="search">Search</label>
+                <input type="search" id="search" placeholder="Search for anything">
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo_Image">
+                <h1>GOJO SATORU</h1>
+            </div>
+            <div class="lists">
+                <div class="list">
+                    <h2>All Sections</h2>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#video">Video</a></li>
+                    </ul>
+                </div>
 
+            </div>
+        </div>
+            <hr>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae alias suscipit magnam quod, fuga incidunt
+                sequi! Quia hic cum nesciunt in error voluptas corrupti delectus. Laborum officia cumque vitae
+                voluptates cum doloremque consequatur sequi voluptas natus dignissimos, officiis error perspiciatis?</p>
     </footer>
 </body>
 
