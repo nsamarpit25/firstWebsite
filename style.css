@@ -2,14 +2,14 @@
 
 :root {
     font-size: 16px;
-    --headingColor: #80b9c5;
+    --headingColor: ##00b4d8;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -26,7 +26,7 @@ header {
     align-items: center;
     height: auto;
     padding: 2vw 5vw;
-    background: url(https://images.unsplash.com/photo-1536584756722-e3381c5582f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
+    background: url(https://img.freepik.com/free-photo/customer-interior-table-decoration-abstract_1203-4027.jpg?w=1800&t=st=1691509799~exp=1691510399~hmac=9ae296738be42f0a8f5349f6e8ca22a2ed56a32036ab3b7dedd882f7c61595ae);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,7 +138,7 @@ header {
 }
 .navbarList li:hover {
     transform: translateX(-1px) translateY(-2px);
-    text-shadow: 2px 5px 2px #00b4d8b5;
+    text-shadow: 2px 5px 2px var(--headingColor);
 }
 
 .mainImage img {
@@ -303,7 +303,7 @@ header {
 .imageText{
     position: absolute;
     font-size: 0.6rem;
-    color: #00b4d8;
+    color: #17376c;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -325,13 +325,13 @@ header {
     border: none;
     cursor: pointer;
     font-size: 0.5rem;
-    background-color: #00b4d8;
+    background-color: #17376c;
     color: wheat;
     transition: 0.8s ease;
 }
 .imageButton:hover{
     background-color: white;
-    color: #00b4d8;
+    color: #17376c;
 }
 footer{
     font-size: 4rem;
@@ -715,10 +715,10 @@ footer p{
         font-size: 1.4rem;
     }
     .imageText{
-        font-size:0.9rem;
+        font-size:0.7rem;
     }
     .imageButton{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
 }
