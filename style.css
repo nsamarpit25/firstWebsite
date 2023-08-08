@@ -186,9 +186,11 @@ header {
     border-radius: 50%;
     height: 70vw;
     object-fit: cover;
-
+    box-shadow: 3px 5px 30px #004e5e;
 }
-
+.categories img:hover{
+    
+}
 .ciBoxText h3 {
     font-size: 2rem;
 }
@@ -227,7 +229,7 @@ header {
 .content h3 {
     font-size: 1.7rem;
     margin: 5vh 0 0 0;
-    font-weight: lighter;
+    font-weight: lighter;;
 }
 
 .content p {
@@ -246,6 +248,7 @@ header {
 .gallery h1{
     margin-bottom: 3vh;
     font-size: 2rem;
+    color:#082946;
 }
 .images{
     display: flex;
@@ -255,11 +258,48 @@ header {
     background: #caf0f8;
     padding: 5vh 0;
 }
-.images img{
+.image{
     width: 70vw;
     object-fit: cover;
     border-radius: 10px;
     margin-top: 1vh;
+    transition: 0.5s ease;
+}
+.imageBox{
+    position: relative;
+}
+.imageText{
+    position: absolute;
+    font-size: 0.6rem;
+    color: #082946;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 0.5s ease;
+    text-align: center;
+}
+.imageBox:hover .image{
+    opacity: 0.4;
+}
+.imageBox:hover .imageText{
+    opacity: 1;
+}
+.imageButton{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.2rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 0.5rem;
+    background-color: #082946;
+    color: wheat;
+    transition: 0.8s ease;
+}
+.imageButton:hover{
+    background-color: white;
+    color: #02054c;
 }
 footer{
     font-size: 4rem;
@@ -425,6 +465,13 @@ footer p{
         width: 40vw;
         margin: 2vw;
         height: 30vw;
+    }
+    .imageText{
+        top: 48%;
+        font-size: 0.6rem;
+    }
+    .imageButton{
+        font-size: 0.6rem;
     }
 }
 
@@ -628,6 +675,12 @@ footer p{
     }
     .footer2 ul{
         font-size: 1.4rem;
+    }
+    .imageText{
+        font-size:0.9rem;
+    }
+    .imageButton{
+        font-size: 0.9rem;
     }
 
 }
